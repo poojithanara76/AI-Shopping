@@ -1,0 +1,252 @@
+.sign-in {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 126px 140px 122px 140px;
+    width: 2200px;
+    box-sizing: border-box;
+  }
+  .signup {
+    border-radius: 0 30px 30px 0;
+    border: 1px solid #DBDBDB;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding-right: 155px;
+    box-sizing: border-box;
+  }
+  .signup-page {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .forget-password {
+    margin: 0 14.3px;
+    align-self: flex-end;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #5B86E5;
+  }
+  .or {
+    margin-right: 15.5px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2.4px;
+    line-height: 1.333;
+    color: #838383;
+  }
+  .sign-in-to-next-gen-kart {
+    margin-bottom: 29px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Volkhov';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.333;
+    color: #000000;
+  }
+  .sign-up-with-google {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #000000;
+  }
+  .image-939 {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/LUMe9fStgajoizagWfq3ha/assets/images/e121e126b45cd58fd8fcc69bf2b6c53109f89ea8?Expires=1711194715&KeyName=fn12-cdn&Signature=weDGIbN2nNfydZ_A1W2ApHLku40=') 50% / cover no-repeat;
+    margin: 2px 13px 2px 0;
+    width: 36px;
+    height: 36px;
+  }
+  .sign-up-with-email {
+    margin: 1px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #000000;
+  }
+  .image-940 {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/LUMe9fStgajoizagWfq3ha/assets/images/8e8f2cc6eb58c4483932992e2df91b0e74fc9c46?Expires=1711194715&KeyName=fn12-cdn&Signature=LTgWrq0bJDS73aYTJ_v4zhIiXzk=') 50% / cover no-repeat;
+    margin-right: 13px;
+    width: 42px;
+    height: 42px;
+  }
+  .rectangle-5 {
+    background: #838383;
+    margin: 17px 11px 18px 0;
+    width: 30px;
+    height: 5px;
+  }
+  .rectangle-6 {
+    background: #838383;
+    margin: 17px 0 18px 0;
+    width: 30px;
+    height: 5px;
+  }
+  .input-name {
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .email {
+    margin-bottom: 7px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #9D9D9D;
+  }
+  .line-1 {
+    background: #9D9D9D;
+    width: 628px;
+    height: 1px;
+  }
+  .input-name-1 {
+    margin-bottom: 43px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .password {
+    margin-bottom: 7px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #9D9D9D;
+  }
+  .line-12 {
+    background: #9D9D9D;
+    width: 628px;
+    height: 1px;
+  }
+  .sign-in-3 {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #FFFFFF;
+  }
+  .register-now {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #5B86E5;
+  }
+  .rectangle-19280 {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/LUMe9fStgajoizagWfq3ha/assets/images/9a1d5858f418c83ef338364919b3a6f022e6cabe?Expires=1711194715&KeyName=fn12-cdn&Signature=pVShPCI4H-m1KYau1Eu9N-0sgmU=');
+    margin-right: 187px;
+    width: 949px;
+    height: 1077px;
+  }
+  .next-gen-kart {
+    margin-bottom: 82.3px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Volkhov';
+    font-weight: 400;
+    font-size: 66.6px;
+    line-height: 1;
+    color: #484848;
+  }
+  .container {
+    margin-bottom: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 628px;
+    box-sizing: border-box;
+  }
+  .container-4 {
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background: #000000;
+    position: relative;
+    margin: 0 14px 19px 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0.9px 10px 0;
+    width: 575px;
+    box-sizing: border-box;
+  }
+  .container-5 {
+    border-radius: 8px;
+    border: 1px solid #5B86E5;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0 7px 0;
+    width: 294px;
+    box-sizing: border-box;
+  }
+  .container-6 {
+    border-radius: 8px;
+    border: 1px solid #5B86E5;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 7px 0 6px 21px;
+    width: 270px;
+    box-sizing: border-box;
+  }
+  .container-7 {
+    margin: 0 0 49px 28px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .container-8 {
+    margin: 90.7px 0 186px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .container-9 {
+    border-radius: 8px;
+    border: 1px solid #5B86E5;
+    position: relative;
+    margin: 0 14px 6px 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 1px 10px 0;
+    width: 575px;
+    box-sizing: border-box;
+  }

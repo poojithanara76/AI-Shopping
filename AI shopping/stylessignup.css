@@ -1,0 +1,343 @@
+.signup {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 123px 140px 122px 140px;
+    width: 2200px;
+    box-sizing: border-box;
+  }
+  .signup-1 {
+    border: 1px solid #DBDBDB;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2px;
+    width: 1920px;
+    box-sizing: border-box;
+  }
+  .signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .already-have-an-account-login {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 1.333;
+    color: #5B86E5;
+  }
+  .already-have-an-account-login-sub7 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 1.333;
+  }
+  .or {
+    margin-right: 15.5px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2.4px;
+    line-height: 1.333;
+    color: #838383;
+  }
+  .create-account {
+    margin-bottom: 29px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Volkhov';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.333;
+    color: #000000;
+  }
+  .sign-up-with-google {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #000000;
+  }
+  .image-939 {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/LUMe9fStgajoizagWfq3ha/assets/images/e121e126b45cd58fd8fcc69bf2b6c53109f89ea8?Expires=1711195416&KeyName=fn12-cdn&Signature=vvD4rKMOI98vVnST5sRY2sLfaK0=') 50% / cover no-repeat;
+    margin: 2px 13px 2px 0;
+    width: 36px;
+    height: 36px;
+  }
+  .sign-up-with-email {
+    margin: 1px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #000000;
+  }
+  .image-940 {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/LUMe9fStgajoizagWfq3ha/assets/images/8e8f2cc6eb58c4483932992e2df91b0e74fc9c46?Expires=1711195416&KeyName=fn12-cdn&Signature=l79A970XTCfHAE2Zhcx9EINdkYE=') 50% / cover no-repeat;
+    margin-right: 13px;
+    width: 42px;
+    height: 42px;
+  }
+  .rectangle-5 {
+    background: #838383;
+    margin: 17px 11px 18px 0;
+    width: 30px;
+    height: 5px;
+  }
+  .rectangle-6 {
+    background: #838383;
+    margin: 17px 0 18px 0;
+    width: 30px;
+    height: 5px;
+  }
+  .input-name {
+    margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .first-name {
+    margin-bottom: 7px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #9D9D9D;
+  }
+  .line-1 {
+    background: #9D9D9D;
+    width: 324px;
+    height: 1px;
+  }
+  .input-name-2 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .last-name {
+    margin-bottom: 7px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #9D9D9D;
+  }
+  .line-13 {
+    background: #9D9D9D;
+    width: 324px;
+    height: 1px;
+  }
+  .input-name-4 {
+    margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .email-address {
+    margin-bottom: 7px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #9D9D9D;
+  }
+  .line-15 {
+    background: #9D9D9D;
+    width: 324px;
+    height: 1px;
+  }
+  .input-name-6 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .phone-number {
+    margin-bottom: 7px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #9D9D9D;
+  }
+  .line-17 {
+    background: #9D9D9D;
+    width: 324px;
+    height: 1px;
+  }
+  .input-name-8 {
+    margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .password {
+    margin-bottom: 7px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #9D9D9D;
+  }
+  .line-19 {
+    background: #9D9D9D;
+    width: 324px;
+    height: 1px;
+  }
+  .input-name-10 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .confirm-password {
+    margin-bottom: 7px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #9D9D9D;
+  }
+  .line-111 {
+    background: #9D9D9D;
+    width: 324px;
+    height: 1px;
+  }
+  .create-account-12 {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 2.5;
+    color: #FFFFFF;
+  }
+  .rectangle-19280 {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/LUMe9fStgajoizagWfq3ha/assets/images/6f029cf7923d541fb4587b8e8eba0f0086d98777?Expires=1711195416&KeyName=fn12-cdn&Signature=RQq66hOSvY4jLY5sQ-y8iTjxJB4=');
+    margin-right: 93px;
+    width: 949px;
+    height: 1077px;
+  }
+  .next-gen-kart {
+    margin-bottom: 82.3px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Volkhov';
+    font-weight: 400;
+    font-size: 66.6px;
+    line-height: 1;
+    color: #484848;
+  }
+  .container {
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background: #000000;
+    position: relative;
+    margin: 0 52px 19px 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0 10px 1.3px;
+    width: 575px;
+    box-sizing: border-box;
+  }
+  .container-13 {
+    margin: 0 38px 84px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 628px;
+    box-sizing: border-box;
+  }
+  .container-14 {
+    margin: 91.7px 0 177px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .container-15 {
+    margin-bottom: 43px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .container-16 {
+    border-radius: 8px;
+    border: 1px solid #5B86E5;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 7px 0 6px 21px;
+    width: 270px;
+    box-sizing: border-box;
+  }
+  .container-17 {
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .container-18 {
+    border-radius: 8px;
+    border: 1px solid #5B86E5;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0 7px 0;
+    width: 294px;
+    box-sizing: border-box;
+  }
+  .container-19 {
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .container-20 {
+    margin: 0 10px 67px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }

@@ -1,0 +1,210 @@
+/* FILEPATH: /c:/Users/reddi/javafiles/project/AI shopping/styless.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  background-image:linear-gradient(
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.75)
+    ),
+     url('images/profile.jpeg');
+  background-size: cover;
+
+}
+
+/* Header Styles */
+header {
+ 
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: rgb(19, 19, 19)09);
+  text-decoration: solid;
+  text-decoration-color: rgb(236, 232, 232);
+  text-align: center;
+  text-decoration-style: double;
+  text-decoration-thickness: 3px;
+  text-shadow: 2px 2px 5px red;
+
+}
+
+nav ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  
+  text-decoration: none;
+  color: #ccc;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration: solid;
+
+}
+
+/* Hero Styles */
+.hero {
+  
+  padding: 2rem;
+  text-align: center;
+  text-decoration-color: rgb(223, 215, 215);
+  text-decoration: double;
+}
+
+.hero h2 {
+  margin-top: 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: rgb(230, 13, 13);
+  text-decoration: solid;
+  text-decoration-color: rgb(241, 235, 235);
+  text-align: center;
+}
+
+.hero p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #ccc;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.btn {
+  background-color: #333;
+ 
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration:none;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Features Styles */
+.features {  
+  justify-content: space-between;
+  padding: 2rem;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 75;
+
+}
+.feature {
+  
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.feature img {
+  max-width: 20;
+  display: block;
+  margin: 12px;;
+  border-image-outset: 2rem;
+}
+.features h2{
+  color: aquamarine;
+  
+  text-align: center;
+  text-decoration: solid;
+  
+  text-transform:uppercase;
+  }
+
+.feature {
+  
+  align-items: center;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  width: 100;
+  text-align: center;
+}
+
+.feature img {
+  display: block;
+  margin: 0 auto;
+}
+
+.feature h3 {
+  margin-top:auto;
+  color: aquamarine;
+  align-items: center;
+  text-align: center;
+  text-decoration: solid;
+  text-decoration-color: black;
+  text-transform:uppercase;
+  }
+
+.feature p {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(224, 20, 20);
+  align-items: center;
+  text-align: center;
+}
+
+
+
+/* Testimonials Styles */
+.testimonials {
+  background-color: #f2f2f2;
+  padding: 2rem;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.testimonials h2{
+  color: rgb(12, 12, 12);
+  
+  text-align: center;
+  text-decoration: solid;
+  
+  text-transform:uppercase;
+  }
+
+
+.testimonial {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.testimonial p {
+  margin-bottom: 0;
+}
+
+.testimonial cite {
+  font-weight: bold;
+}

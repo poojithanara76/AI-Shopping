@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NextGenKart</title>
+	<style>
+		body {
+	
+			background-image:linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url('images/login.jpg');
+            background-size: cover;
+			background-size: cover;
+			background-position: center;
+			font-family: Arial, sans-serif;
+		}
+		form {
+			background-color: rgba(255, 255, 255, 0.8);
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			max-width: 400px;
+			margin: 100px auto;
+		}
+		input[type="text"], input[type="password"] {
+			padding: 10px;
+			margin: 10px 0;
+			border-radius: 5px;
+			border: none;
+			width: 100%;
+			font-size: 16px;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			width: 100%;
+			font-size: 16px;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+		h1 {
+			text-align: center;
+			color: white;
+			text-shadow: 2px 2px 4px #000000;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<h1>NextGenKart</h1>
+	<form id="loginForm">
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+
+		<input type="submit" value="Login">
+		
+    </form>
+	<!-- index.html -->
+
+
+
+     
+	
+	<script>
+	document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    // Your login code here
+    // If login is successful, redirect to another page
+    window.location.href = 'home.html'; // replace 'profile.html' with your HTML file
+});
+	</script>
+
+</body>
+</html>

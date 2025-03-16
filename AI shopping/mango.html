@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+    .agent {
+      border: 1px solid black;
+      padding: 10px;
+      margin: 10px;
+      background-color: lightblue;
+      border-radius: 10px;
+    }
+ </style>
+</head>
+<body>
+
+ <h2>AI Shopping</h2>
+ <div id="agent"></div>
+
+ <script>
+    const totalAgents = 5;
+    let agents = [];
+
+    class Agent {
+      constructor(id) {
+        this.id = id;
+        this.x = random(100, windowWidth - 100);
+        this.y = random(100, windowHeight - 100);
+      }
+
+      draw() {
+        fill(255);
+        text("Agent " + this.id, this.x, this.y);
+      }
+    }
+
+    function setup() {
+      createCanvas(800, 400);
+
+      for (let i = 0; i < totalAgents; i++) {
+        agents.push(new Agent(i));
+      }
+    }
+
+    function draw() {
+      background(255);
+
+      for (let agent of agents) {
+        agent.draw();
+      }
+    }
+ </script>
+
+</body>
+</html>
